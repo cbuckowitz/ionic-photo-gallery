@@ -1,0 +1,14 @@
+{
+  "name": "ionic-photo-gallery",
+  "image": "mcr.microsoft.com/vscode/devcontainers/javascript-node:14",
+
+	"extensions": [
+    "dbaeumer.vscode-eslint",
+    "eamodio.gitlens",
+    "gruntfuggly.todo-tree",
+    "mhutchie.git-graph",
+  ],
+
+  "postCreateCommand": "yarn global add @ionic/cli native-run cordova-res",
+ 
+}
